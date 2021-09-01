@@ -1,9 +1,10 @@
 <?php
-$day = 'Friday';
-$today = 'Saturday';
+$scan = "20";
 
-if ($today === $day && 'Saturday') {
-    echo "Today is holiday";
+if ($scan == '10') {
+    echo "Digit Ten";
+} elseif ($scan == '20') {
+    echo "Digit Twenty";
 } else {
-    echo "Today is office day";
+    echo "Invalid number";
 }
